@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1362218473519220714}
   - component: {fileID: 1362218473519220717}
   - component: {fileID: 1362218473519220716}
+  - component: {fileID: 1362218473519220713}
   - component: {fileID: 1362218473519220715}
   - component: {fileID: 1362218473519220712}
-  - component: {fileID: 1362218473519220713}
   m_Layer: 0
   m_Name: BlueBird
   m_TagString: Untagged
@@ -104,6 +104,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1362218473519220713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362218473519220719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f5d4faa08f35449996788c0fcb8c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_hitPrefab: {fileID: 2454777174175965747, guid: 2f92cf2fdd697224d967e02df4aa33a9,
+    type: 3}
+  m_hitClip: {fileID: 8300000, guid: 4d9c8b87aef5b0d4bbeb0463c33782dc, type: 3}
 --- !u!61 &1362218473519220715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -203,18 +218,3 @@ MonoBehaviour:
   movingPlatformDebug: 0
   iterationDebug: 0
   slopeNormal: {x: 0, y: 0}
---- !u!114 &1362218473519220713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362218473519220719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5f5d4faa08f35449996788c0fcb8c8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_hitPrefab: {fileID: 2454777174175965747, guid: 2f92cf2fdd697224d967e02df4aa33a9,
-    type: 3}
-  m_hitClip: {fileID: 8300000, guid: 4d9c8b87aef5b0d4bbeb0463c33782dc, type: 3}
